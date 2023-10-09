@@ -1,0 +1,20 @@
+#!/usr/bin/env php
+
+<?php
+
+require __DIR__ . '/../vendor/autoload.php';
+
+use function BrainGames\Cli\velcome;
+use function cli\line;
+use function BrainGames\logicBrainEven\logicBrainEven;
+
+$name = velcome();
+$answers = ["да", "нет", "да"];
+$questions = ["12", "3", "26"];
+
+line('Ответьте «да», если число четное, в противном случае ответьте «нет»');
+
+logicBrainEven($questions, $answers, $name);
+
+
+
