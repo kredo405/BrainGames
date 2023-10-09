@@ -1,0 +1,15 @@
+{
+    "name": "kredo/brain-games",
+    "autoload": {
+        "psr-4": {
+            "Kredo\\BrainGames\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aleksandr Kreidich",
+            "email": "kredik305@gmail.com"
+        }
+    ],
+    "require": {}
+}
