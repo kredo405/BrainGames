@@ -2,8 +2,9 @@
     "name": "kredo/brain-games",
     "autoload": {
         "psr-4": {
-            "Kredo\\BrainGames\\": "src/"
-        }
+            "BrainGames\\": "src/"
+        }, 
+        "files": ["src/Cli.php"]
     },
     "authors": [
         {
@@ -11,5 +12,12 @@
             "email": "kredik305@gmail.com"
         }
     ],
-    "require": {}
+    "bin": [
+        "bin/brainGames"
+      ],
+    "require": {
+        "wp-cli/php-cli-tools": "*"
+    }
+
+    
 }
