@@ -12,7 +12,7 @@ class PlayBrainProgression
         define("COUNT_ANSWERS", 3);
         $countCorrectAnswers = 0;
 
-        Engine::askQuestion("Каков результат выражения?");
+        Engine::askQuestion("Какое число пропущено в прогрессии?");
 
         for ($i = 0; $i < COUNT_ANSWERS; $i++) {
             [$progression, $hiddenValue] = PlayBrainProgression::generateProgression();
