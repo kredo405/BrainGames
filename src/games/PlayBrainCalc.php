@@ -22,7 +22,6 @@ class PlayBrainCalc
             $mathOperation;
             $answer;
 
-
             if ($arrNumbersForMathOperation[$rundNumber] === 0) {
                 $mathOperation = "+";
                 $answer = $num1 + $num2;
