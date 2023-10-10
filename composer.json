@@ -3,12 +3,7 @@
     "autoload": {
         "psr-4": {
             "BrainGames\\": "src/"
-        }, 
-        "files": [
-            "src/Cli.php",
-            "src/chekingAnswer.php",
-            "src/logicBrainEven.php"
-        ]
+        }
     },
     "authors": [
         {
@@ -18,7 +13,8 @@
     ],
     "bin": [
         "bin/brainGames",
-        "bin/brain-even"
+        "bin/brain-even",
+        "bin/brain-calc"
       ],
     "require": {
         "wp-cli/php-cli-tools": "*"
@@ -27,3 +23,5 @@
         "squizlabs/php_codesniffer": "*"
     }
 }
+
+
